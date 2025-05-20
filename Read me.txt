@@ -1,0 +1,20 @@
+Para la instalación de la aplicación simplemente se necesita descargarse todo el contenido del repositorio github e instalar XAMPP.
+
+Una vez instalado tenemos que poner en marcha el servicio de apache y de mysql.
+
+Cuando esten en marcha nos dirijimos al navegador y buscamos localhost.
+
+Cuando veamos una interfaz gráfica nos direjiremos a phpMyadmin y crearemos la BBDD con el siguiente comando: CREATE DATABASE madquizote;
+
+Luego copiamos el código que hay en el .txt llamado MadQuiZoteBBDD y copiamos el código de dentro y lo pegamos y se nos crearan las dos tablas que utiliza la aplicación.
+
+Y por último en las sentencias sql ponemos la siguiente y la ejecutamos: GRANT ALL PRIVILEGES ON madquizote.* TO 'user-madquizote'@localhost IDENTIFIED BY '1234';
+
+Ahora nos iremos a nuestro explorador de archivos y a la carpeta donde tengamos instalado XAMPP y entraremos en una carpeta llamada htdocs en ella todo lo que vemos lo 
+metemos en una carpeta con el nombre de "Principal XAMPP".
+
+y en esa carpeta descomprimimos el .zip y movemos la carpeta "quiz" dentro de la carpeta "htdocs" al mismo nivel que la carpeta de "Principal XAMPP".
+
+Y ahora al entrar en el local host elejiremos la carpeta quiz y el archivo "login" y ya tendíamos la aplicación. 
+
+
