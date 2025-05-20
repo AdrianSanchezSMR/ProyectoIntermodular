@@ -1,4 +1,0 @@
-Una vez instalemos todo tenemos que crear la base de datos y luego crear las tablas con el código SQL que hay en el github
-
-CREATE DATABASE madquizote;
-
